@@ -1,0 +1,16 @@
+span {
+    font-weight: 800;
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"] {
+    width: 25px;
+    text-align: center;
+}
+
+#rectangle {
+    width: 130px;
+    height: 130px;
+    background-color: red;
+}

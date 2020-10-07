@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Inputs</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <span>(R) Vermelho: </span>
+            <input type="range" min="0" max="255" id="inputRED">
+            <input type="text" disabled id="textRED">
+        </div>
+        <div>
+            <span>(G) Verde: </span>
+            <input type="range" min="0" max="255" id="inputGREEN">
+            <input type="text" disabled id="textGREEN">
+        </div>
+        <div>
+            <span>(B) Azul: </span>
+            <input type="range" min="0" max="255" id="inputBLUE">
+            <input type="text" disabled id="textBLUE">
+        </div>
+        <div>
+            <span></span>
+            <span id="rectangle"></span>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
